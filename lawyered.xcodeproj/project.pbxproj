@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3E349A166B70120089F069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3E3499166B70120089F069 /* UIKit.framework */; };
+		CF3E349C166B70120089F069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3E349B166B70120089F069 /* Foundation.framework */; };
+		CF3E349E166B70120089F069 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3E349D166B70120089F069 /* CoreGraphics.framework */; };
+		CF3E34A4166B70120089F069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34A2166B70120089F069 /* InfoPlist.strings */; };
+		CF3E34A6166B70120089F069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34A5166B70120089F069 /* main.m */; };
+		CF3E34AA166B70120089F069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34A9166B70120089F069 /* AppDelegate.m */; };
+		CF3E34AC166B70120089F069 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34AB166B70120089F069 /* Default.png */; };
+		CF3E34AE166B70120089F069 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34AD166B70120089F069 /* Default@2x.png */; };
+		CF3E34B0166B70120089F069 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34AF166B70120089F069 /* Default-568h@2x.png */; };
+		CF3E34B3166B70120089F069 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34B1166B70120089F069 /* MainStoryboard_iPhone.storyboard */; };
+		CF3E34B6166B70120089F069 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3E34B4166B70120089F069 /* MainStoryboard_iPad.storyboard */; };
+		CF3E34B9166B70120089F069 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34B8166B70120089F069 /* MasterViewController.m */; };
+		CF3E34BC166B70120089F069 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34BB166B70120089F069 /* DetailViewController.m */; };
+		CF3E34C4166B71F20089F069 /* UserDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34C3166B71F10089F069 /* UserDirectory.m */; };
+		CF3E34C7166B72770089F069 /* UserDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34C6166B72770089F069 /* UserDataController.m */; };
+		CF3E34CA166B74620089F069 /* IOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34C9166B74620089F069 /* IOSUtils.m */; };
+		CF3E34CD166B74E00089F069 /* UserInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3E34CC166B74E00089F069 /* UserInterface.m */; };
+		CF44EAFC166BD1230083E798 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44EAFB166BD1230083E798 /* VideoViewController.m */; };
+		CF44EAFF166CF3C70083E798 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF44EAFE166CF3C70083E798 /* Opentok.framework */; };
+		CF44EB01166CF4180083E798 /* opentok.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF44EB00166CF4170083E798 /* opentok.bundle */; };
+		CF9CC5C7166CF9C200AB42A9 /* VideoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CC5C6166CF9C200AB42A9 /* VideoSession.m */; };
+		CF9CC5CA166CFA3000AB42A9 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CC5C9166CFA3000AB42A9 /* Clock.m */; };
+		CF9CC5D4166D096D00AB42A9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5D3166D096D00AB42A9 /* CoreVideo.framework */; };
+		CF9CC5D6166D097A00AB42A9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5D5166D097A00AB42A9 /* CoreTelephony.framework */; };
+		CF9CC5D8166D098C00AB42A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5D7166D098C00AB42A9 /* AVFoundation.framework */; };
+		CF9CC5DA166D099A00AB42A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5D9166D099A00AB42A9 /* QuartzCore.framework */; };
+		CF9CC5DC166D09AB00AB42A9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5DB166D09AB00AB42A9 /* libstdc++.dylib */; };
+		CF9CC5DE166D09B600AB42A9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5DD166D09B600AB42A9 /* libz.dylib */; };
+		CF9CC5E0166D09C300AB42A9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5DF166D09C300AB42A9 /* OpenGLES.framework */; };
+		CF9CC5E2166D09D100AB42A9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5E1166D09D100AB42A9 /* CoreAudio.framework */; };
+		CF9CC5E4166D09DD00AB42A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5E3166D09DD00AB42A9 /* AudioToolbox.framework */; };
+		CF9CC5E6166D09E500AB42A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5E5166D09E500AB42A9 /* Security.framework */; };
+		CF9CC5E8166D09F000AB42A9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5E7166D09F000AB42A9 /* CoreMedia.framework */; };
+		CF9CC5EA166D09FE00AB42A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5E9166D09FE00AB42A9 /* SystemConfiguration.framework */; };
+		CF9CC5EC166D0A0B00AB42A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5EB166D0A0B00AB42A9 /* CFNetwork.framework */; };
+		CF9CC5EE166D0A1200AB42A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CC5ED166D0A1200AB42A9 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3E3495166B70120089F069 /* lawyered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lawyered.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3E3499166B70120089F069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF3E349B166B70120089F069 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3E349D166B70120089F069 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF3E34A1166B70120089F069 /* lawyered-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lawyered-Info.plist"; sourceTree = "<group>"; };
+		CF3E34A3166B70120089F069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3E34A5166B70120089F069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3E34A7166B70120089F069 /* lawyered-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lawyered-Prefix.pch"; sourceTree = "<group>"; };
+		CF3E34A8166B70120089F069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3E34A9166B70120089F069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3E34AB166B70120089F069 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF3E34AD166B70120089F069 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF3E34AF166B70120089F069 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF3E34B2166B70120089F069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CF3E34B5166B70120089F069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CF3E34B7166B70120089F069 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CF3E34B8166B70120089F069 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CF3E34BA166B70120089F069 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CF3E34BB166B70120089F069 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CF3E34C2166B71F10089F069 /* UserDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDirectory.h; path = Views/UserDirectory.h; sourceTree = "<group>"; };
+		CF3E34C3166B71F10089F069 /* UserDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDirectory.m; path = Views/UserDirectory.m; sourceTree = "<group>"; };
+		CF3E34C5166B72770089F069 /* UserDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDataController.h; path = Data/UserDataController.h; sourceTree = "<group>"; };
+		CF3E34C6166B72770089F069 /* UserDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDataController.m; path = Data/UserDataController.m; sourceTree = "<group>"; };
+		CF3E34C8166B74620089F069 /* IOSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSUtils.h; path = Utils/IOSUtils.h; sourceTree = "<group>"; };
+		CF3E34C9166B74620089F069 /* IOSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOSUtils.m; path = Utils/IOSUtils.m; sourceTree = "<group>"; };
+		CF3E34CB166B74DF0089F069 /* UserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInterface.h; path = Data/UserInterface.h; sourceTree = "<group>"; };
+		CF3E34CC166B74E00089F069 /* UserInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInterface.m; path = Data/UserInterface.m; sourceTree = "<group>"; };
+		CF44EAFA166BD1230083E798 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = Views/VideoViewController.h; sourceTree = "<group>"; };
+		CF44EAFB166BD1230083E798 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = Views/VideoViewController.m; sourceTree = "<group>"; };
+		CF44EAFE166CF3C70083E798 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opentok.framework; path = "../3rdParty/opentok-ios-sdk/Opentok.framework"; sourceTree = "<group>"; };
+		CF44EB00166CF4170083E798 /* opentok.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = opentok.bundle; path = "../../3rdParty/opentok-ios-sdk/Opentok.framework/Versions/A/Resources/opentok.bundle"; sourceTree = "<group>"; };
+		CF9CC5C5166CF9C200AB42A9 /* VideoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoSession.h; path = Utils/VideoSession.h; sourceTree = "<group>"; };
+		CF9CC5C6166CF9C200AB42A9 /* VideoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoSession.m; path = Utils/VideoSession.m; sourceTree = "<group>"; };
+		CF9CC5C8166CFA3000AB42A9 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clock.h; path = Utils/Clock.h; sourceTree = "<group>"; };
+		CF9CC5C9166CFA3000AB42A9 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Clock.m; path = Utils/Clock.m; sourceTree = "<group>"; };
+		CF9CC5D3166D096D00AB42A9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CF9CC5D5166D097A00AB42A9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF9CC5D7166D098C00AB42A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF9CC5D9166D099A00AB42A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF9CC5DB166D09AB00AB42A9 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		CF9CC5DD166D09B600AB42A9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CF9CC5DF166D09C300AB42A9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CF9CC5E1166D09D100AB42A9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		CF9CC5E3166D09DD00AB42A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF9CC5E5166D09E500AB42A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF9CC5E7166D09F000AB42A9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CF9CC5E9166D09FE00AB42A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF9CC5EB166D0A0B00AB42A9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF9CC5ED166D0A1200AB42A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3E3492166B70120089F069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CC5EE166D0A1200AB42A9 /* MobileCoreServices.framework in Frameworks */,
+				CF9CC5EC166D0A0B00AB42A9 /* CFNetwork.framework in Frameworks */,
+				CF9CC5EA166D09FE00AB42A9 /* SystemConfiguration.framework in Frameworks */,
+				CF9CC5E8166D09F000AB42A9 /* CoreMedia.framework in Frameworks */,
+				CF9CC5E6166D09E500AB42A9 /* Security.framework in Frameworks */,
+				CF9CC5E4166D09DD00AB42A9 /* AudioToolbox.framework in Frameworks */,
+				CF9CC5E2166D09D100AB42A9 /* CoreAudio.framework in Frameworks */,
+				CF9CC5E0166D09C300AB42A9 /* OpenGLES.framework in Frameworks */,
+				CF9CC5DE166D09B600AB42A9 /* libz.dylib in Frameworks */,
+				CF9CC5DC166D09AB00AB42A9 /* libstdc++.dylib in Frameworks */,
+				CF9CC5DA166D099A00AB42A9 /* QuartzCore.framework in Frameworks */,
+				CF9CC5D8166D098C00AB42A9 /* AVFoundation.framework in Frameworks */,
+				CF9CC5D6166D097A00AB42A9 /* CoreTelephony.framework in Frameworks */,
+				CF9CC5D4166D096D00AB42A9 /* CoreVideo.framework in Frameworks */,
+				CF44EAFF166CF3C70083E798 /* Opentok.framework in Frameworks */,
+				CF3E349A166B70120089F069 /* UIKit.framework in Frameworks */,
+				CF3E349C166B70120089F069 /* Foundation.framework in Frameworks */,
+				CF3E349E166B70120089F069 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3E348A166B70120089F069 = {
+			isa = PBXGroup;
+			children = (
+				CF9CC5ED166D0A1200AB42A9 /* MobileCoreServices.framework */,
+				CF9CC5EB166D0A0B00AB42A9 /* CFNetwork.framework */,
+				CF9CC5E9166D09FE00AB42A9 /* SystemConfiguration.framework */,
+				CF9CC5E7166D09F000AB42A9 /* CoreMedia.framework */,
+				CF9CC5E5166D09E500AB42A9 /* Security.framework */,
+				CF9CC5E3166D09DD00AB42A9 /* AudioToolbox.framework */,
+				CF9CC5E1166D09D100AB42A9 /* CoreAudio.framework */,
+				CF9CC5DF166D09C300AB42A9 /* OpenGLES.framework */,
+				CF9CC5DD166D09B600AB42A9 /* libz.dylib */,
+				CF9CC5DB166D09AB00AB42A9 /* libstdc++.dylib */,
+				CF9CC5D9166D099A00AB42A9 /* QuartzCore.framework */,
+				CF9CC5D7166D098C00AB42A9 /* AVFoundation.framework */,
+				CF9CC5D5166D097A00AB42A9 /* CoreTelephony.framework */,
+				CF9CC5D3166D096D00AB42A9 /* CoreVideo.framework */,
+				CF44EAFE166CF3C70083E798 /* Opentok.framework */,
+				CF3E349F166B70120089F069 /* lawyered */,
+				CF3E3498166B70120089F069 /* Frameworks */,
+				CF3E3496166B70120089F069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3E3496166B70120089F069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E3495166B70120089F069 /* lawyered.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3E3498166B70120089F069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E3499166B70120089F069 /* UIKit.framework */,
+				CF3E349B166B70120089F069 /* Foundation.framework */,
+				CF3E349D166B70120089F069 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3E349F166B70120089F069 /* lawyered */ = {
+			isa = PBXGroup;
+			children = (
+				CF44EB00166CF4170083E798 /* opentok.bundle */,
+				CF3E34A8166B70120089F069 /* AppDelegate.h */,
+				CF3E34A9166B70120089F069 /* AppDelegate.m */,
+				CF3E34B1166B70120089F069 /* MainStoryboard_iPhone.storyboard */,
+				CF3E34C2166B71F10089F069 /* UserDirectory.h */,
+				CF3E34C3166B71F10089F069 /* UserDirectory.m */,
+				CF3E34C5166B72770089F069 /* UserDataController.h */,
+				CF3E34C6166B72770089F069 /* UserDataController.m */,
+				CF3E34CB166B74DF0089F069 /* UserInterface.h */,
+				CF3E34CC166B74E00089F069 /* UserInterface.m */,
+				CF3E34C8166B74620089F069 /* IOSUtils.h */,
+				CF3E34C9166B74620089F069 /* IOSUtils.m */,
+				CF3E34B4166B70120089F069 /* MainStoryboard_iPad.storyboard */,
+				CF3E34B7166B70120089F069 /* MasterViewController.h */,
+				CF3E34B8166B70120089F069 /* MasterViewController.m */,
+				CF3E34BA166B70120089F069 /* DetailViewController.h */,
+				CF3E34BB166B70120089F069 /* DetailViewController.m */,
+				CF44EAFA166BD1230083E798 /* VideoViewController.h */,
+				CF44EAFB166BD1230083E798 /* VideoViewController.m */,
+				CF9CC5C5166CF9C200AB42A9 /* VideoSession.h */,
+				CF9CC5C6166CF9C200AB42A9 /* VideoSession.m */,
+				CF9CC5C8166CFA3000AB42A9 /* Clock.h */,
+				CF9CC5C9166CFA3000AB42A9 /* Clock.m */,
+				CF3E34A0166B70120089F069 /* Supporting Files */,
+			);
+			path = lawyered;
+			sourceTree = "<group>";
+		};
+		CF3E34A0166B70120089F069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3E34A1166B70120089F069 /* lawyered-Info.plist */,
+				CF3E34A2166B70120089F069 /* InfoPlist.strings */,
+				CF3E34A5166B70120089F069 /* main.m */,
+				CF3E34A7166B70120089F069 /* lawyered-Prefix.pch */,
+				CF3E34AB166B70120089F069 /* Default.png */,
+				CF3E34AD166B70120089F069 /* Default@2x.png */,
+				CF3E34AF166B70120089F069 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3E3494166B70120089F069 /* lawyered */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3E34BF166B70120089F069 /* Build configuration list for PBXNativeTarget "lawyered" */;
+			buildPhases = (
+				CF3E3491166B70120089F069 /* Sources */,
+				CF3E3492166B70120089F069 /* Frameworks */,
+				CF3E3493166B70120089F069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lawyered;
+			productName = lawyered;
+			productReference = CF3E3495166B70120089F069 /* lawyered.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3E348C166B70120089F069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Venkateswaran Shankar";
+			};
+			buildConfigurationList = CF3E348F166B70120089F069 /* Build configuration list for PBXProject "lawyered" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF3E348A166B70120089F069;
+			productRefGroup = CF3E3496166B70120089F069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3E3494166B70120089F069 /* lawyered */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3E3493166B70120089F069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E34A4166B70120089F069 /* InfoPlist.strings in Resources */,
+				CF3E34AC166B70120089F069 /* Default.png in Resources */,
+				CF3E34AE166B70120089F069 /* Default@2x.png in Resources */,
+				CF3E34B0166B70120089F069 /* Default-568h@2x.png in Resources */,
+				CF3E34B3166B70120089F069 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CF3E34B6166B70120089F069 /* MainStoryboard_iPad.storyboard in Resources */,
+				CF44EB01166CF4180083E798 /* opentok.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3E3491166B70120089F069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3E34A6166B70120089F069 /* main.m in Sources */,
+				CF3E34AA166B70120089F069 /* AppDelegate.m in Sources */,
+				CF3E34B9166B70120089F069 /* MasterViewController.m in Sources */,
+				CF3E34BC166B70120089F069 /* DetailViewController.m in Sources */,
+				CF3E34C4166B71F20089F069 /* UserDirectory.m in Sources */,
+				CF3E34C7166B72770089F069 /* UserDataController.m in Sources */,
+				CF3E34CA166B74620089F069 /* IOSUtils.m in Sources */,
+				CF3E34CD166B74E00089F069 /* UserInterface.m in Sources */,
+				CF44EAFC166BD1230083E798 /* VideoViewController.m in Sources */,
+				CF9CC5C7166CF9C200AB42A9 /* VideoSession.m in Sources */,
+				CF9CC5CA166CFA3000AB42A9 /* Clock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3E34A2166B70120089F069 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3E34A3166B70120089F069 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF3E34B1166B70120089F069 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3E34B2166B70120089F069 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3E34B4166B70120089F069 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3E34B5166B70120089F069 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3E34BD166B70120089F069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv6;
+				"VALID_ARCHS[sdk=iphoneos*]" = armv6;
+			};
+			name = Debug;
+		};
+		CF3E34BE166B70120089F069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv6;
+			};
+			name = Release;
+		};
+		CF3E34C0166B70120089F069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rdParty/opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lawyered/lawyered-Prefix.pch";
+				INFOPLIST_FILE = "lawyered/lawyered-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=*]" = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF3E34C1166B70120089F069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rdParty/opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lawyered/lawyered-Prefix.pch";
+				INFOPLIST_FILE = "lawyered/lawyered-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"VALID_ARCHS[sdk=*]" = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3E348F166B70120089F069 /* Build configuration list for PBXProject "lawyered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E34BD166B70120089F069 /* Debug */,
+				CF3E34BE166B70120089F069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3E34BF166B70120089F069 /* Build configuration list for PBXNativeTarget "lawyered" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3E34C0166B70120089F069 /* Debug */,
+				CF3E34C1166B70120089F069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3E348C166B70120089F069 /* Project object */;
+}
